@@ -1,0 +1,59 @@
+.top {
+    text-align: center;
+    color: #6f94dc;
+    border: 15px groove red;
+    background-color: yellow;
+    margin: 10px;
+}
+.top h3{
+    color: rgb(54, 203, 111);
+}
+.middleCollumn {
+    color: #730045;
+    border: 4px inset #cc0066;
+    outline: 5px dotted orange;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+    background-image: url("../images/backgroundimage.png");
+    background-repeat: repeat;
+}
+body {
+    background-color: #142952;
+    background-image: url("../images/backgroudHome.png");
+    background-repeat: repeat;
+}
+.blink {
+    animation: blinker 0.75s infinite;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.game {
+    background-color: turquoise;
+    color: navy;
+    display: inline-block;
+    border: 5px dashed black;
+
+    width: 75%;
+    padding: 1%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#gameDiscription {
+    color: purple;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#bottom{
+    background-color:orange;
+    padding: 1px;
+    margin-top: 2%;
+    border: 4px solid green;
+}
+
+
+
